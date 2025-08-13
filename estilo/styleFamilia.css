@@ -11,6 +11,7 @@
 }
 
 nav{
+    --preenchimento-ponta-pequena: 01.25rem;
     padding: var(--preenchimento-ponta-pequena);
 }
 
