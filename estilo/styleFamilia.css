@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --preenchimento-ponta-pequena: 2rem;
+    --preenchimento-adaptavel: 1.25rem;
+    --fonte-padrão:"Bona Nova SC", serif;
+    --fonte-secundaria-paragrafo: "Mozilla Headline", sans-serif;
+    --cor-receitas:#ff4c1be0;
+    --tamano-fonte: 1.2rem;
+    --cor-botao: #c66504;
+}
+
+nav{
+    padding: var(--preenchimento-ponta-pequena);
+}
+
+.imagem-galinha{
+    margin: 0.89rem auto;
+    padding: var(--preenchimento-adaptavel);
+    width: fit-content;
+    display: block;
+}
+
+.receita-1{
+    font-family: var(--fonte-padrão);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+
+ul > li{
+    text-align: justify;
+    font-size: var(--tamano-fonte);
+    font-family: var(--fonte-padrão);
+}
+
+ol > li{
+    text-align: justify;
+    font-size: var(--tamano-fonte);
+    font-family: var(--fonte-padrão);
+}
+
+.saiba-mais > p{
+    text-align: center;
+}
+
+.mais-conteudo{
+    border-radius: 9999px;
+    background-color: var(--cor-botao);
+    color: #fff;
+    width: fit-content;
+    padding: 0.78rem;
+    text-decoration: none;
+}
+
+.parte-importante{
+    font-family: var(--fonte-secundaria-paragrafo);
+    font-size: 1.24rem;
+}
